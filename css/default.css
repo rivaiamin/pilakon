@@ -1,0 +1,24 @@
+body {	background-color: #FFFFFF; }	
+.ui.menu .item img.logo {	margin-right: 1.5em;}
+.main.container {	margin-top: 7em; }
+.wireframe { 	margin-top: 2em; }
+.ui.footer.segment { 	margin: 5em 0em 0em; padding: 5em 0em;}
+
+/* comic page */
+#comic * { font-family: "KomikaHand" }
+.ui.segment { border: solid 2px #666 }
+#comic .ui.image, #comic .triangle-border { opacity: 0; }
+#comic .ui.header { margin-top:20%; margin-bottom: 20%; }
+
+/* bubble */
+.triangle-border { border: solid 3px #333  }
+.triangle-border:before { border-color: #333 transparent}
+
+.show { opacity: 1; }
+
+@font-face {
+	font-family: "KomikaHand";
+	src: url("../css/font/komika_hand.ttf");
+	font-style: normal;
+	font-weight: normal;
+}
