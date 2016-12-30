@@ -23,7 +23,6 @@
   ],
   "dependencies": {
     "semantic": "^2.2.7",
-    "uikit": "^2.27.2",
     "animate.css": "^3.5.2",
     "jquery.scrollex": "^0.2.1"
   }
