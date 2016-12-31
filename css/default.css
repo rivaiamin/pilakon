@@ -6,13 +6,23 @@ body {	background-color: #FFFFFF; }
 
 /* comic page */
 #comic * { font-family: "KomikaHand" }
-.ui.segment { border: solid 2px #666 }
-#comic .ui.image, #comic .triangle-border { opacity: 0; }
+#comic .ui.segment { border: solid 2px #666; padding: 0; }
+#comic .slide { opacity: 0; }
 #comic .ui.header { margin-top:20%; margin-bottom: 20%; }
+#comic .ui.fluid.image { height: 100%; }
 
 /* bubble */
-.triangle-border { border: solid 3px #333  }
-.triangle-border:before { border-color: #333 transparent}
+.triangle-border { border: solid 3px #333; margin: 10px !important;  }
+.triangle-border.bottom:before { border-color: #333 transparent}
+.triangle-border.left:before { border-color: transparent #333}
+.triangle-border.right:before { border-color: transparent #333}
+.triangle-border.top:before { border-color: #333 transparent}
+
+.speech {	position: absolute; z-index: 1; }
+.right.speech { right: 0; margin-top: 10%; max-width: 50%; }
+.left.speech { left: 0; margin-top: 10%; max-width: 50%; }
+.bottom.speech { bottom: 0; right: 30%; }
+
 
 .show { opacity: 1; }
 
@@ -78,6 +88,8 @@ body {	background-color: #FFFFFF; }
 }
 
 .ui.inverted.segment { background-image: url('../image/header.jpg'); background-attachment: fixed; background-size: cover}
+.ui.secondary.inverted.pointing.menu { border: none }
+
 
 @media only screen and (max-width: 700px) {
   .ui.fixed.menu {
