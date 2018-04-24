@@ -1,0 +1,1716 @@
+/*** uncss> filename: http://localhost/pilakon/bower_components/semantic/dist/semantic.min.css ***/
+
+
+/*
+ * # Semantic UI - 2.2.7
+ * https://github.com/Semantic-Org/Semantic-UI
+ * http://www.semantic-ui.com/
+ *
+ * Copyright 2014 Contributors
+ * Released under the MIT license
+ * http://opensource.org/licenses/MIT
+ *
+ */
+
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic&subset=latin);
+*,
+:after,
+:before {
+  box-sizing: inherit
+}
+
+html {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%
+}
+
+input[type=text] {
+  -webkit-appearance: none;
+  -moz-appearance: none
+}
+
+a {
+  background: 0 0;
+  color: #4183C4;
+  text-decoration: none
+}
+
+a:active,
+a:hover {
+  outline: 0
+}
+
+img {
+  border: 0
+}
+
+button,
+input {
+  color: inherit;
+  font: inherit;
+  margin: 0
+}
+
+button {
+  overflow: visible
+}
+
+button {
+  text-transform: none
+}
+
+button {
+  -webkit-appearance: button;
+  cursor: pointer
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0
+}
+
+input {
+  line-height: normal
+}
+
+body,
+html {
+  height: 100%
+}
+
+html {
+  font-size: 14px
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  min-width: 320px;
+  background: #FFF;
+  font-family: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 1.4285em;
+  color: rgba(0, 0, 0, .87);
+  font-smoothing: antialiased
+}
+
+h1 {
+  font-family: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  line-height: 1.2857em;
+  margin: calc(2rem - .14285em) 0 1rem;
+  font-weight: 700;
+  padding: 0
+}
+
+h1 {
+  min-height: 1rem;
+  font-size: 2rem
+}
+
+h1:first-child,
+p:first-child {
+  margin-top: 0
+}
+
+p {
+  margin: 0 0 1em;
+  line-height: 1.4285em
+}
+
+a:hover {
+  color: #1e70bf;
+  text-decoration: none
+}
+
+::-webkit-selection {
+  background-color: #CCE2FF;
+  color: rgba(0, 0, 0, .87)
+}
+
+::-moz-selection {
+  background-color: #CCE2FF;
+  color: rgba(0, 0, 0, .87)
+}
+
+::selection {
+  background-color: #CCE2FF;
+  color: rgba(0, 0, 0, .87)
+}
+
+input::-webkit-selection {
+  background-color: rgba(100, 100, 100, .4);
+  color: rgba(0, 0, 0, .87)
+}
+
+input::-moz-selection {
+  background-color: rgba(100, 100, 100, .4);
+  color: rgba(0, 0, 0, .87)
+}
+
+input::selection {
+  background-color: rgba(100, 100, 100, .4);
+  color: rgba(0, 0, 0, .87)
+}
+
+.ui.button {
+  cursor: pointer;
+  display: inline-block;
+  min-height: 1em;
+  outline: 0;
+  border: none;
+  vertical-align: baseline;
+  background: #E0E1E2;
+  color: rgba(0, 0, 0, .6);
+  font-family: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  margin: 0 .25em 0 0;
+  padding: .78571429em 1.5em;
+  text-transform: none;
+  text-shadow: none;
+  font-weight: 700;
+  line-height: 1em;
+  font-style: normal;
+  text-align: center;
+  text-decoration: none;
+  border-radius: .28571429rem;
+  box-shadow: 0 0 0 1px transparent inset, 0 0 0 0 rgba(34, 36, 38, .15) inset;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: opacity .1s ease, background-color .1s ease, color .1s ease, box-shadow .1s ease, background .1s ease;
+  transition: opacity .1s ease, background-color .1s ease, color .1s ease, box-shadow .1s ease, background .1s ease;
+  will-change: '';
+  -webkit-tap-highlight-color: transparent
+}
+
+.ui.button:hover {
+  background-color: #CACBCD;
+  background-image: none;
+  box-shadow: 0 0 0 1px transparent inset, 0 0 0 0 rgba(34, 36, 38, .15) inset;
+  color: rgba(0, 0, 0, .8)
+}
+
+.ui.button:hover .icon {
+  opacity: .85
+}
+
+.ui.button:focus {
+  background-color: #CACBCD;
+  color: rgba(0, 0, 0, .8);
+  background-image: ''!important;
+  box-shadow: ''!important
+}
+
+.ui.button:focus .icon {
+  opacity: .85
+}
+
+.ui.button:active {
+  background-color: #BABBBC;
+  background-image: '';
+  color: rgba(0, 0, 0, .9);
+  box-shadow: 0 0 0 1px transparent inset, none
+}
+
+.ui.button:disabled {
+  cursor: default;
+  opacity: .45!important;
+  background-image: none!important;
+  box-shadow: none!important;
+  pointer-events: none!important
+}
+
+.ui.button>.icon:not(.button) {
+  height: .85714286em;
+  opacity: .8;
+  margin: 0 .42857143em 0 -.21428571em;
+  -webkit-transition: opacity .1s ease;
+  transition: opacity .1s ease;
+  vertical-align: '';
+  color: ''
+}
+
+.ui.button:not(.icon)>.icon:not(.button):not(.dropdown) {
+  margin: 0 .42857143em 0 -.21428571em
+}
+
+.ui.button {
+  font-size: 1rem
+}
+
+.ui.primary.button {
+  background-color: #2185D0;
+  color: #FFF;
+  text-shadow: none;
+  background-image: none
+}
+
+.ui.primary.button {
+  box-shadow: 0 0 0 0 rgba(34, 36, 38, .15) inset
+}
+
+.ui.primary.button:hover {
+  background-color: #1678c2;
+  color: #FFF;
+  text-shadow: none
+}
+
+.ui.primary.button:focus {
+  background-color: #0d71bb;
+  color: #FFF;
+  text-shadow: none
+}
+
+.ui.primary.button:active {
+  background-color: #1a69a4;
+  color: #FFF;
+  text-shadow: none
+}
+
+.ui.container {
+  display: block;
+  max-width: 100%!important
+}
+
+@media only screen and (max-width:767px) {
+  .ui.container {
+    width: auto!important;
+    margin-left: 1em!important;
+    margin-right: 1em!important
+  }
+}
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+  .ui.container {
+    width: 723px;
+    margin-left: auto!important;
+    margin-right: auto!important
+  }
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px) {
+  .ui.container {
+    width: 933px;
+    margin-left: auto!important;
+    margin-right: auto!important
+  }
+}
+
+@media only screen and (min-width:1200px) {
+  .ui.container {
+    width: 1127px;
+    margin-left: auto!important;
+    margin-right: auto!important
+  }
+}
+
+.ui.text.container {
+  font-family: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  max-width: 700px!important;
+  line-height: 1.5;
+  font-size: 1.14285714rem
+}
+
+.ui[class*="center aligned"].container {
+  text-align: center
+}
+
+.ui.header {
+  border: none;
+  margin: calc(2rem - .14285em) 0 1rem;
+  padding: 0;
+  font-family: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  line-height: 1.2857em;
+  text-transform: none;
+  color: rgba(0, 0, 0, .87)
+}
+
+.ui.header:first-child {
+  margin-top: -.14285em
+}
+
+h1.ui.header {
+  font-size: 2rem
+}
+
+@font-face {
+  font-family: Icons;
+  src: url(themes/default/assets/fonts/icons.eot);
+  src: url(themes/default/assets/fonts/icons.eot?#iefix) format('embedded-opentype'), url(themes/default/assets/fonts/icons.woff2) format('woff2'), url(themes/default/assets/fonts/icons.woff) format('woff'), url(themes/default/assets/fonts/icons.ttf) format('truetype'), url(themes/default/assets/fonts/icons.svg#icons) format('svg');
+  font-style: normal;
+  font-weight: 400;
+  font-variant: normal;
+  text-decoration: inherit;
+  text-transform: none
+}
+
+i.icon {
+  display: inline-block;
+  opacity: 1;
+  margin: 0 .25rem 0 0;
+  width: 1.18em;
+  height: 1em;
+  font-family: Icons;
+  font-style: normal;
+  font-weight: 400;
+  text-decoration: inherit;
+  text-align: center;
+  speak: none;
+  font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden
+}
+
+i.icon:before {
+  background: 0 0!important
+}
+
+i.link.icon {
+  cursor: pointer;
+  opacity: .8;
+  -webkit-transition: opacity .1s ease;
+  transition: opacity .1s ease
+}
+
+i.link.icon:hover {
+  opacity: 1!important
+}
+
+i.icon {
+  font-size: 1em
+}
+
+i.icon.search:before {
+  content: "\f002"
+}
+
+i.icon.plus:before {
+  content: "\f067"
+}
+
+i.icon.sidebar:before {
+  content: "\f0c9"
+}
+
+.ui.image {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 100%;
+  background-color: transparent
+}
+
+.ui.image img {
+  display: block;
+  max-width: 100%;
+  height: auto
+}
+
+.ui.input {
+  position: relative;
+  font-weight: 400;
+  font-style: normal;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  color: rgba(0, 0, 0, .87)
+}
+
+.ui.input input {
+  margin: 0;
+  max-width: 100%;
+  -webkit-box-flex: 1;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  outline: 0;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  text-align: left;
+  line-height: 1.2142em;
+  font-family: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  padding: .67861429em 1em;
+  background: #FFF;
+  border: 1px solid rgba(34, 36, 38, .15);
+  color: rgba(0, 0, 0, .87);
+  border-radius: .28571429rem;
+  -webkit-transition: box-shadow .1s ease, border-color .1s ease;
+  transition: box-shadow .1s ease, border-color .1s ease;
+  box-shadow: none
+}
+
+.ui.input input::-webkit-input-placeholder {
+  color: rgba(191, 191, 191, .87)
+}
+
+.ui.input input::-moz-placeholder {
+  color: rgba(191, 191, 191, .87)
+}
+
+.ui.input input:-ms-input-placeholder {
+  color: rgba(191, 191, 191, .87)
+}
+
+.ui.input input:active {
+  border-color: rgba(0, 0, 0, .3);
+  background: #FAFAFA;
+  color: rgba(0, 0, 0, .87);
+  box-shadow: none
+}
+
+.ui.input input:focus {
+  border-color: #85B7D9;
+  background: #FFF;
+  color: rgba(0, 0, 0, .8);
+  box-shadow: none
+}
+
+.ui.input input:focus::-webkit-input-placeholder {
+  color: rgba(115, 115, 115, .87)
+}
+
+.ui.input input:focus::-moz-placeholder {
+  color: rgba(115, 115, 115, .87)
+}
+
+.ui.input input:focus:-ms-input-placeholder {
+  color: rgba(115, 115, 115, .87)
+}
+
+.ui.icon.input>i.icon {
+  cursor: default;
+  position: absolute;
+  line-height: 1;
+  text-align: center;
+  top: 0;
+  right: 0;
+  margin: 0;
+  height: 100%;
+  width: 2.67142857em;
+  opacity: .5;
+  border-radius: 0 .28571429rem .28571429rem 0;
+  -webkit-transition: opacity .3s ease;
+  transition: opacity .3s ease
+}
+
+.ui.icon.input input {
+  padding-right: 2.67142857em!important
+}
+
+.ui.icon.input>i.icon:after,
+.ui.icon.input>i.icon:before {
+  left: 0;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 100%;
+  margin-top: -.5em
+}
+
+.ui.icon.input>i.link.icon {
+  cursor: pointer
+}
+
+.ui.icon.input>input:focus~i.icon {
+  opacity: 1
+}
+
+.ui.input {
+  font-size: 1em
+}
+
+.ui.top.attached.label+[class*="right floated"]+* {
+  margin-top: 2rem!important
+}
+
+.ui.segment {
+  position: relative;
+  background: #FFF;
+  box-shadow: 0 1px 2px 0 rgba(34, 36, 38, .15);
+  margin: 1rem 0;
+  padding: 1em;
+  border-radius: .28571429rem;
+  border: 1px solid rgba(34, 36, 38, .15)
+}
+
+.ui.segment:first-child {
+  margin-top: 0
+}
+
+.ui.segment:last-child {
+  margin-bottom: 0
+}
+
+.ui.segment {
+  font-size: 1rem
+}
+
+@font-face {
+  font-family: Step;
+  src: url(data:application/x-font-ttf;charset=utf-8;;base64,AAEAAAAOAIAAAwBgT1MvMj3hSQEAAADsAAAAVmNtYXDQEhm3AAABRAAAAUpjdnQgBkn/lAAABuwAAAAcZnBnbYoKeDsAAAcIAAAJkWdhc3AAAAAQAAAG5AAAAAhnbHlm32cEdgAAApAAAAC2aGVhZAErPHsAAANIAAAANmhoZWEHUwNNAAADgAAAACRobXR4CykAAAAAA6QAAAAMbG9jYQA4AFsAAAOwAAAACG1heHAApgm8AAADuAAAACBuYW1lzJ0aHAAAA9gAAALNcG9zdK69QJgAAAaoAAAAO3ByZXCSoZr/AAAQnAAAAFYAAQO4AZAABQAIAnoCvAAAAIwCegK8AAAB4AAxAQIAAAIABQMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUGZFZABA6ADoAQNS/2oAWgMLAE8AAAABAAAAAAAAAAAAAwAAAAMAAAAcAAEAAAAAAEQAAwABAAAAHAAEACgAAAAGAAQAAQACAADoAf//AAAAAOgA//8AABgBAAEAAAAAAAAAAAEGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAADpAKYABUAHEAZDwEAAQFCAAIBAmoAAQABagAAAGEUFxQDEisBFAcBBiInASY0PwE2Mh8BATYyHwEWA6QP/iAQLBD+6g8PTBAsEKQBbhAsEEwPAhYWEP4gDw8BFhAsEEwQEKUBbxAQTBAAAAH//f+xA18DCwAMABJADwABAQpDAAAACwBEFRMCESsBFA4BIi4CPgEyHgEDWXLG6MhuBnq89Lp+AV51xHR0xOrEdHTEAAAAAAEAAAABAADDeRpdXw889QALA+gAAAAAzzWYjQAAAADPNWBN//3/sQOkAwsAAAAIAAIAAAAAAAAAAQAAA1L/agBaA+gAAP/3A6QAAQAAAAAAAAAAAAAAAAAAAAMD6AAAA+gAAANZAAAAAAAAADgAWwABAAAAAwAWAAEAAAAAAAIABgATAG4AAAAtCZEAAAAAAAAAEgDeAAEAAAAAAAAANQAAAAEAAAAAAAEACAA1AAEAAAAAAAIABwA9AAEAAAAAAAMACABEAAEAAAAAAAQACABMAAEAAAAAAAUACwBUAAEAAAAAAAYACABfAAEAAAAAAAoAKwBnAAEAAAAAAAsAEwCSAAMAAQQJAAAAagClAAMAAQQJAAEAEAEPAAMAAQQJAAIADgEfAAMAAQQJAAMAEAEtAAMAAQQJAAQAEAE9AAMAAQQJAAUAFgFNAAMAAQQJAAYAEAFjAAMAAQQJAAoAVgFzAAMAAQQJAAsAJgHJQ29weXJpZ2h0IChDKSAyMDE0IGJ5IG9yaWdpbmFsIGF1dGhvcnMgQCBmb250ZWxsby5jb21mb250ZWxsb1JlZ3VsYXJmb250ZWxsb2ZvbnRlbGxvVmVyc2lvbiAxLjBmb250ZWxsb0dlbmVyYXRlZCBieSBzdmcydHRmIGZyb20gRm9udGVsbG8gcHJvamVjdC5odHRwOi8vZm9udGVsbG8uY29tAEMAbwBwAHkAcgBpAGcAaAB0ACAAKABDACkAIAAyADAAMQA0ACAAYgB5ACAAbwByAGkAZwBpAG4AYQBsACAAYQB1AHQAaABvAHIAcwAgAEAAIABmAG8AbgB0AGUAbABsAG8ALgBjAG8AbQBmAG8AbgB0AGUAbABsAG8AUgBlAGcAdQBsAGEAcgBmAG8AbgB0AGUAbABsAG8AZgBvAG4AdABlAGwAbABvAFYAZQByAHMAaQBvAG4AIAAxAC4AMABmAG8AbgB0AGUAbABsAG8ARwBlAG4AZQByAGEAdABlAGQAIABiAHkAIABzAHYAZwAyAHQAdABmACAAZgByAG8AbQAgAEYAbwBuAHQAZQBsAGwAbwAgAHAAcgBvAGoAZQBjAHQALgBoAHQAdABwADoALwAvAGYAbwBuAHQAZQBsAGwAbwAuAGMAbwBtAAAAAAIAAAAAAAAACgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwAAAQIBAwljaGVja21hcmsGY2lyY2xlAAAAAAEAAf//AA8AAAAAAAAAAAAAAAAAAAAAADIAMgML/7EDC/+xsAAssCBgZi2wASwgZCCwwFCwBCZasARFW1ghIyEbilggsFBQWCGwQFkbILA4UFghsDhZWSCwCkVhZLAoUFghsApFILAwUFghsDBZGyCwwFBYIGYgiophILAKUFhgGyCwIFBYIbAKYBsgsDZQWCGwNmAbYFlZWRuwACtZWSOwAFBYZVlZLbACLCBFILAEJWFkILAFQ1BYsAUjQrAGI0IbISFZsAFgLbADLCMhIyEgZLEFYkIgsAYjQrIKAAIqISCwBkMgiiCKsAArsTAFJYpRWGBQG2FSWVgjWSEgsEBTWLAAKxshsEBZI7AAUFhlWS2wBCywB0MrsgACAENgQi2wBSywByNCIyCwACNCYbCAYrABYLAEKi2wBiwgIEUgsAJFY7ABRWJgRLABYC2wBywgIEUgsAArI7ECBCVgIEWKI2EgZCCwIFBYIbAAG7AwUFiwIBuwQFlZI7AAUFhlWbADJSNhRESwAWAtsAgssQUFRbABYUQtsAkssAFgICCwCUNKsABQWCCwCSNCWbAKQ0qwAFJYILAKI0JZLbAKLCC4BABiILgEAGOKI2GwC0NgIIpgILALI0IjLbALLEtUWLEHAURZJLANZSN4LbAMLEtRWEtTWLEHAURZGyFZJLATZSN4LbANLLEADENVWLEMDEOwAWFCsAorWbAAQ7ACJUKxCQIlQrEKAiVCsAEWIyCwAyVQWLEBAENgsAQlQoqKIIojYbAJKiEjsAFhIIojYbAJKiEbsQEAQ2CwAiVCsAIlYbAJKiFZsAlDR7AKQ0dgsIBiILACRWOwAUViYLEAABMjRLABQ7AAPrIBAQFDYEItsA4ssQAFRVRYALAMI0IgYLABYbUNDQEACwBCQopgsQ0FK7BtKxsiWS2wDyyxAA4rLbAQLLEBDistsBEssQIOKy2wEiyxAw4rLbATLLEEDistsBQssQUOKy2wFSyxBg4rLbAWLLEHDistsBcssQgOKy2wGCyxCQ4rLbAZLLAIK7EABUVUWACwDCNCIGCwAWG1DQ0BAAsAQkKKYLENBSuwbSsbIlktsBossQAZKy2wGyyxARkrLbAcLLECGSstsB0ssQMZKy2wHiyxBBkrLbAfLLEFGSstsCAssQYZKy2wISyxBxkrLbAiLLEIGSstsCMssQkZKy2wJCwgPLABYC2wJSwgYLANYCBDI7ABYEOwAiVhsAFgsCQqIS2wJiywJSuwJSotsCcsICBHICCwAkVjsAFFYmAjYTgjIIpVWCBHICCwAkVjsAFFYmAjYTgbIVktsCgssQAFRVRYALABFrAnKrABFTAbIlktsCkssAgrsQAFRVRYALABFrAnKrABFTAbIlktsCosIDWwAWAtsCssALADRWOwAUVisAArsAJFY7ABRWKwACuwABa0AAAAAABEPiM4sSoBFSotsCwsIDwgRyCwAkVjsAFFYmCwAENhOC2wLSwuFzwtsC4sIDwgRyCwAkVjsAFFYmCwAENhsAFDYzgtsC8ssQIAFiUgLiBHsAAjQrACJUmKikcjRyNhIFhiGyFZsAEjQrIuAQEVFCotsDAssAAWsAQlsAQlRyNHI2GwBkUrZYouIyAgPIo4LbAxLLAAFrAEJbAEJSAuRyNHI2EgsAQjQrAGRSsgsGBQWCCwQFFYswIgAyAbswImAxpZQkIjILAIQyCKI0cjRyNhI0ZgsARDsIBiYCCwACsgiophILACQ2BkI7ADQ2FkUFiwAkNhG7ADQ2BZsAMlsIBiYSMgILAEJiNGYTgbI7AIQ0awAiWwCENHI0cjYWAgsARDsIBiYCMgsAArI7AEQ2CwACuwBSVhsAUlsIBisAQmYSCwBCVgZCOwAyVgZFBYIRsjIVkjICCwBCYjRmE4WS2wMiywABYgICCwBSYgLkcjRyNhIzw4LbAzLLAAFiCwCCNCICAgRiNHsAArI2E4LbA0LLAAFrADJbACJUcjRyNhsABUWC4gPCMhG7ACJbACJUcjRyNhILAFJbAEJUcjRyNhsAYlsAUlSbACJWGwAUVjIyBYYhshWWOwAUViYCMuIyAgPIo4IyFZLbA1LLAAFiCwCEMgLkcjRyNhIGCwIGBmsIBiIyAgPIo4LbA2LCMgLkawAiVGUlggPFkusSYBFCstsDcsIyAuRrACJUZQWCA8WS6xJgEUKy2wOCwjIC5GsAIlRlJYIDxZIyAuRrACJUZQWCA8WS6xJgEUKy2wOSywMCsjIC5GsAIlRlJYIDxZLrEmARQrLbA6LLAxK4ogIDywBCNCijgjIC5GsAIlRlJYIDxZLrEmARQrsARDLrAmKy2wOyywABawBCWwBCYgLkcjRyNhsAZFKyMgPCAuIzixJgEUKy2wPCyxCAQlQrAAFrAEJbAEJSAuRyNHI2EgsAQjQrAGRSsgsGBQWCCwQFFYswIgAyAbswImAxpZQkIjIEewBEOwgGJgILAAKyCKimEgsAJDYGQjsANDYWRQWLACQ2EbsANDYFmwAyWwgGJhsAIlRmE4IyA8IzgbISAgRiNHsAArI2E4IVmxJgEUKy2wPSywMCsusSYBFCstsD4ssDErISMgIDywBCNCIzixJgEUK7AEQy6wJistsD8ssAAVIEewACNCsgABARUUEy6wLCotsEAssAAVIEewACNCsgABARUUEy6wLCotsEEssQABFBOwLSotsEIssC8qLbBDLLAAFkUjIC4gRoojYTixJgEUKy2wRCywCCNCsEMrLbBFLLIAADwrLbBGLLIAATwrLbBHLLIBADwrLbBILLIBATwrLbBJLLIAAD0rLbBKLLIAAT0rLbBLLLIBAD0rLbBMLLIBAT0rLbBNLLIAADkrLbBOLLIAATkrLbBPLLIBADkrLbBQLLIBATkrLbBRLLIAADsrLbBSLLIAATsrLbBTLLIBADsrLbBULLIBATsrLbBVLLIAAD4rLbBWLLIAAT4rLbBXLLIBAD4rLbBYLLIBAT4rLbBZLLIAADorLbBaLLIAATorLbBbLLIBADorLbBcLLIBATorLbBdLLAyKy6xJgEUKy2wXiywMiuwNistsF8ssDIrsDcrLbBgLLAAFrAyK7A4Ky2wYSywMysusSYBFCstsGIssDMrsDYrLbBjLLAzK7A3Ky2wZCywMyuwOCstsGUssDQrLrEmARQrLbBmLLA0K7A2Ky2wZyywNCuwNystsGgssDQrsDgrLbBpLLA1Ky6xJgEUKy2waiywNSuwNistsGsssDUrsDcrLbBsLLA1K7A4Ky2wbSwrsAhlsAMkUHiwARUwLQAAAEu4AMhSWLEBAY5ZuQgACABjILABI0SwAyNwsgQoCUVSRLIKAgcqsQYBRLEkAYhRWLBAiFixBgNEsSYBiFFYuAQAiFixBgFEWVlZWbgB/4WwBI2xBQBEAAA=) format('truetype'), url(data:application/font-woff;charset=utf-8;base64,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) format('woff')
+}
+
+.ui.grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  padding: 0;
+  margin: -1rem
+}
+
+.ui.grid>.column:not(.row) {
+  position: relative;
+  display: inline-block;
+  width: 6.25%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  vertical-align: top
+}
+
+.ui.grid>* {
+  padding-left: 1rem;
+  padding-right: 1rem
+}
+
+.ui.grid>.column:not(.row) {
+  padding-top: 1rem;
+  padding-bottom: 1rem
+}
+
+.ui[class*="two column"].grid>.column:not(.row) {
+  width: 50%
+}
+
+@media only screen and (max-width:767px) {
+  .ui.stackable.grid {
+    width: auto;
+    margin-left: 0!important;
+    margin-right: 0!important
+  }
+  .ui.stackable.grid>.column:not(.row) {
+    width: 100%!important;
+    margin: 0!important;
+    box-shadow: none!important;
+    padding: 1rem!important
+  }
+  .ui.container>.ui.stackable.grid>.column {
+    padding-left: 0!important;
+    padding-right: 0!important
+  }
+}
+
+.ui.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 1rem 0;
+  font-family: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  background: #FFF;
+  font-weight: 400;
+  border: 1px solid rgba(34, 36, 38, .15);
+  box-shadow: 0 1px 2px 0 rgba(34, 36, 38, .15);
+  border-radius: .28571429rem;
+  min-height: 2.85714286em
+}
+
+.ui.menu:after {
+  content: '';
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden
+}
+
+.ui.menu:first-child {
+  margin-top: 0
+}
+
+.ui.menu .menu {
+  margin: 0
+}
+
+.ui.menu:not(.vertical) .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center
+}
+
+.ui.menu .item {
+  position: relative;
+  vertical-align: middle;
+  line-height: 1;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background: 0 0;
+  padding: .92857143em 1.14285714em;
+  text-transform: none;
+  color: rgba(0, 0, 0, .87);
+  font-weight: 400;
+  -webkit-transition: background .1s ease, box-shadow .1s ease, color .1s ease;
+  transition: background .1s ease, box-shadow .1s ease, color .1s ease
+}
+
+.ui.menu>.item:first-child {
+  border-radius: .28571429rem 0 0 .28571429rem
+}
+
+.ui.menu .item:before {
+  position: absolute;
+  content: '';
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 1px;
+  background: rgba(34, 36, 38, .1)
+}
+
+.ui.menu .item>i.icon {
+  opacity: .9;
+  float: none;
+  margin: 0 .35714286em 0 0
+}
+
+.ui.menu:not(.vertical) .item>.button {
+  position: relative;
+  top: 0;
+  margin: -.5em 0;
+  padding-bottom: .78571429em;
+  padding-top: .78571429em;
+  font-size: 1em
+}
+
+.ui.menu>.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: inherit;
+  -ms-flex-align: inherit;
+  align-items: inherit;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: inherit;
+  flex-direction: inherit
+}
+
+.ui.menu .item>.input {
+  width: 100%
+}
+
+.ui.menu:not(.vertical) .item>.input {
+  position: relative;
+  top: 0;
+  margin: -.5em 0
+}
+
+.ui.menu .item>.input input {
+  font-size: 1em;
+  padding-top: .57142857em;
+  padding-bottom: .57142857em
+}
+
+.ui.menu .header.item {
+  margin: 0;
+  background: 0 0;
+  text-transform: normal;
+  font-weight: 700
+}
+
+.ui.menu .item>img:not(.ui) {
+  display: inline-block;
+  vertical-align: middle;
+  margin: -.3em 0;
+  width: 2.5em
+}
+
+.ui.vertical.sidebar.menu>.item:first-child:before {
+  display: block!important
+}
+
+.ui.vertical.sidebar.menu>.item::before {
+  top: auto;
+  bottom: 0
+}
+
+@media only screen and (max-width:767px) {
+  .ui.menu>.ui.container {
+    width: 100%!important;
+    margin-left: 0!important;
+    margin-right: 0!important
+  }
+}
+
+.ui.menu a.item:hover {
+  cursor: pointer;
+  background: rgba(0, 0, 0, .03);
+  color: rgba(0, 0, 0, .95)
+}
+
+.ui.menu a.item:active {
+  background: rgba(0, 0, 0, .03);
+  color: rgba(0, 0, 0, .95)
+}
+
+.ui.menu .active.item {
+  background: rgba(0, 0, 0, .05);
+  color: rgba(0, 0, 0, .95);
+  font-weight: 400;
+  box-shadow: none
+}
+
+.ui.menu .active.item:hover,
+.ui.vertical.menu .active.item:hover {
+  background-color: rgba(0, 0, 0, .05);
+  color: rgba(0, 0, 0, .95)
+}
+
+.ui.menu:not(.vertical) .right.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: auto!important
+}
+
+.ui.menu .right.menu>.item::before {
+  right: auto;
+  left: 0
+}
+
+.ui.vertical.menu {
+  display: block;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background: #FFF;
+  box-shadow: 0 1px 2px 0 rgba(34, 36, 38, .15)
+}
+
+.ui.vertical.menu .item {
+  display: block;
+  background: 0 0;
+  border-top: none;
+  border-right: none
+}
+
+.ui.vertical.menu>.item:first-child {
+  border-radius: .28571429rem .28571429rem 0 0
+}
+
+.ui.vertical.menu>.item:last-child {
+  border-radius: 0 0 .28571429rem .28571429rem
+}
+
+.ui.vertical.menu .item:before {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: rgba(34, 36, 38, .1)
+}
+
+.ui.vertical.menu .item:first-child:before {
+  display: none!important
+}
+
+.ui.vertical.menu .active.item {
+  background: rgba(0, 0, 0, .05);
+  border-radius: 0;
+  box-shadow: none
+}
+
+.ui.secondary.menu {
+  background: 0 0;
+  margin-left: -.35714286em;
+  margin-right: -.35714286em;
+  border-radius: 0;
+  border: none;
+  box-shadow: none
+}
+
+.ui.secondary.menu .item {
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  box-shadow: none;
+  border: none;
+  padding: .78571429em .92857143em;
+  margin: 0 .35714286em;
+  background: 0 0;
+  -webkit-transition: color .1s ease;
+  transition: color .1s ease;
+  border-radius: .28571429rem
+}
+
+.ui.secondary.menu .item:before {
+  display: none!important
+}
+
+.ui.secondary.menu .header.item {
+  border-radius: 0;
+  border-right: none;
+  background: none
+}
+
+.ui.secondary.menu .item>img:not(.ui) {
+  margin: 0
+}
+
+.ui.secondary.menu a.item:hover {
+  background: rgba(0, 0, 0, .05);
+  color: rgba(0, 0, 0, .95)
+}
+
+.ui.secondary.pointing.menu {
+  margin-left: 0;
+  margin-right: 0;
+  border-bottom: 2px solid rgba(34, 36, 38, .15)
+}
+
+.ui.secondary.pointing.menu .item {
+  border-bottom-color: transparent;
+  border-bottom-style: solid;
+  border-radius: 0;
+  -ms-flex-item-align: end;
+  align-self: flex-end;
+  margin: 0 0 -2px;
+  padding: .85714286em 1.14285714em;
+  border-bottom-width: 2px;
+  -webkit-transition: color .1s ease;
+  transition: color .1s ease
+}
+
+.ui.secondary.pointing.menu .header.item {
+  color: rgba(0, 0, 0, .85)!important
+}
+
+.ui.secondary.pointing.menu .item:after {
+  display: none
+}
+
+.ui.secondary.pointing.menu a.item:hover {
+  background-color: transparent;
+  color: rgba(0, 0, 0, .87)
+}
+
+.ui.secondary.pointing.menu a.item:active {
+  background-color: transparent;
+  border-color: rgba(34, 36, 38, .15)
+}
+
+.ui.inverted.menu {
+  border: 0 solid transparent;
+  background: #1B1C1D;
+  box-shadow: none
+}
+
+.ui.inverted.menu .item {
+  background: 0 0;
+  color: rgba(255, 255, 255, .9)
+}
+
+.ui.inverted.menu .item:before,
+.ui.vertical.inverted.menu .item:before {
+  background: rgba(255, 255, 255, .08)
+}
+
+.ui.inverted.menu a.item:hover {
+  background: rgba(255, 255, 255, .08);
+  color: #fff
+}
+
+.ui.inverted.menu a.item:active {
+  background: rgba(255, 255, 255, .08);
+  color: #fff
+}
+
+.ui.inverted.menu .active.item {
+  background: rgba(255, 255, 255, .15);
+  color: #fff!important
+}
+
+.ui.inverted.menu .active.item:hover {
+  background: rgba(255, 255, 255, .15);
+  color: #FFF!important
+}
+
+.ui.pointing.menu .item:after {
+  visibility: hidden;
+  position: absolute;
+  content: '';
+  top: 100%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%) rotate(45deg);
+  transform: translateX(-50%) translateY(-50%) rotate(45deg);
+  background: 0 0;
+  margin: .5px 0 0;
+  width: .57142857em;
+  height: .57142857em;
+  border: none;
+  border-bottom: 1px solid #D4D4D5;
+  border-right: 1px solid #D4D4D5;
+  z-index: 2;
+  -webkit-transition: background .1s ease;
+  transition: background .1s ease
+}
+
+.ui.menu {
+  font-size: 1rem
+}
+
+.ui.vertical.menu {
+  width: 15rem
+}
+
+.ui.large.menu {
+  font-size: 1.07142857rem
+}
+
+.ui.feed>.event>.content .meta>:after {
+  content: '';
+  color: rgba(0, 0, 0, .2);
+  top: 0;
+  left: -1em;
+  opacity: 1;
+  position: absolute;
+  vertical-align: top
+}
+
+
+.ui.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transition: none;
+  transition: none;
+  will-change: transform;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  visibility: hidden;
+  -webkit-overflow-scrolling: touch;
+  height: 100%!important;
+  max-height: 100%;
+  border-radius: 0!important;
+  margin: 0!important;
+  overflow-y: auto!important;
+  z-index: 102
+}
+
+.ui.sidebar>* {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden
+}
+
+.ui.sidebar.menu .item {
+  border-radius: 0!important
+}
+
+
+/*** uncss> filename: http://localhost/pilakon/css/speech-bubble.css ***/
+
+
+/* ------------------------------------------
+PURE CSS SPEECH BUBBLES
+by Nicolas Gallagher
+- http://nicolasgallagher.com/pure-css-speech-bubbles/
+
+http://nicolasgallagher.com
+http://twitter.com/necolas
+
+Created: 02 March 2010
+Version: 1.2 (03 March 2011)
+
+Dual licensed under MIT and GNU GPLv2 Nicolas Gallagher
+------------------------------------------ */
+
+
+/* NOTE: Some declarations use longhand notation so that it can be clearly
+explained what specific properties or values do and what their relationship
+is to other properties or values in creating the effect */
+
+
+/* ============================================================================================================================
+== GENERAL STYLES
+** ============================================================================================================================ */
+
+
+/*body {
+  padding:0;
+  margin:0;
+  font:1em/1.4 Cambria, Georgia, sans-serif;
+  color:#333;
+  background:#fff;
+}
+
+a:link,
+a:visited {
+  border-bottom:1px solid #c55500;
+  text-decoration:none;
+  color:#c55500;
+}
+
+a:visited {
+  border-bottom:1px solid #730800;
+  color:#730800;
+}
+
+a:hover,
+a:focus,
+a:active {
+  border:0;
+  color:#fff;
+  background:#c55500;
+}
+
+a:visited:hover,
+a:visited:focus,
+a:visited:active {
+  color:#fff;
+  background:#730800;
+}
+
+#container {
+  width:500px;
+  padding:0 0 50px;
+  margin:0 auto;
+}
+
+h1 {
+  margin:1em 0 0;
+  font-size:2.5em;
+  font-weight:normal;
+  line-height:1.2;
+  text-align:center;
+}
+
+h2 {
+  margin:0.5em 0 1.5em;
+  font-size:1.25em;
+  font-weight:normal;
+  font-style:italic;
+  text-align:center;
+}
+
+p {
+  margin:1em 0;
+}
+
+.content h2 {
+  margin:2em 0 0.75em;
+  font-size:2em;
+  font-weight:bold;
+  font-style:normal;
+  text-align:left;
+}
+
+blockquote {
+  margin:1em 0;
+}
+
+blockquote p {
+  margin:0;
+  font-size:2em;
+}
+
+.follow {
+  clear:both;
+  margin-top:2em;
+  font-size:1.125em;
+}
+
+.follow span {
+  font-weight:bold;
+}*/
+
+
+/*
+ Should you want to set a background colour on a containing element
+ certain types of bubble effect may require you to include these
+ style declarations.
+ */
+
+
+/*.content {
+  position:relative;
+  z-index:1;
+}*/
+
+
+/* ============================================================================================================================
+== BUBBLE WITH AN ISOCELES TRIANGLE
+** ============================================================================================================================ */
+
+
+/* THE SPEECH BUBBLE
+------------------------------------------------------------------------------------------------------------------------------- */
+
+
+/* Variant : for top positioned triangle
+------------------------------------------ */
+
+
+/* Variant : for left/right positioned triangle
+------------------------------------------ */
+
+
+/* Variant : for right positioned triangle
+------------------------------------------ */
+
+
+/* THE TRIANGLE
+------------------------------------------------------------------------------------------------------------------------------- */
+
+
+/* creates triangle */
+
+
+/* Variant : top
+------------------------------------------ */
+
+
+/* Variant : left
+------------------------------------------ */
+
+
+/* Variant : right
+------------------------------------------ */
+
+
+/* ============================================================================================================================
+== BUBBLE WITH A RIGHT-ANGLED TRIANGLE
+** ============================================================================================================================ */
+
+
+/* THE SPEECH BUBBLE
+------------------------------------------------------------------------------------------------------------------------------- */
+
+
+/* Variant : for top positioned triangle
+------------------------------------------ */
+
+
+/* Variant : for left positioned triangle
+------------------------------------------ */
+
+
+/* Variant : for right positioned triangle
+------------------------------------------ */
+
+
+/* THE TRIANGLE
+------------------------------------------------------------------------------------------------------------------------------- */
+
+
+/* Variant : top
+------------------------------------------ */
+
+
+/* Variant : left
+------------------------------------------ */
+
+
+/* Variant : right
+------------------------------------------ */
+
+
+/* ============================================================================================================================
+== BUBBLE WITH AN OBTUSE TRIANGLE
+** ============================================================================================================================ */
+
+
+/* THE SPEECH BUBBLE
+------------------------------------------------------------------------------------------------------------------------------- */
+
+
+/* Variant : for top positioned triangle
+------------------------------------------ */
+
+
+/* Variant : for left positioned triangle
+------------------------------------------ */
+
+
+/* Variant : for right positioned triangle
+------------------------------------------ */
+
+
+/* THE TRIANGLE
+------------------------------------------------------------------------------------------------------------------------------- */
+
+
+/* creates the wider right-angled triangle */
+
+
+/* creates the narrower right-angled triangle */
+
+
+/* Variant : top
+------------------------------------------ */
+
+
+/* Variant : left
+------------------------------------------ */
+
+
+/* Variant : right
+------------------------------------------ */
+
+
+/* ============================================================================================================================
+== BUBBLE WITH A BORDER AND TRIANGLE
+** ============================================================================================================================ */
+
+
+/* THE SPEECH BUBBLE
+------------------------------------------------------------------------------------------------------------------------------- */
+
+.triangle-border {
+  position: relative;
+  padding: 15px;
+  margin: 1em 0 3em;
+  border: 5px solid #5a8f00;
+  color: #333;
+  background: #fff;
+  /* css3 */
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+
+
+/* Variant : for left positioned triangle
+------------------------------------------ */
+
+
+/* Variant : for right positioned triangle
+------------------------------------------ */
+
+
+/* THE TRIANGLE
+------------------------------------------------------------------------------------------------------------------------------- */
+
+.triangle-border:before {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  /* value = - border-top-width - border-bottom-width */
+  left: 40px;
+  /* controls horizontal position */
+  border-width: 20px 20px 0;
+  border-style: solid;
+  border-color: #5a8f00 transparent;
+  /* reduce the damage in FF3.0 */
+  display: block;
+  width: 0;
+}
+
+
+/* creates the smaller  triangle */
+
+.triangle-border:after {
+  content: "";
+  position: absolute;
+  bottom: -13px;
+  /* value = - border-top-width - border-bottom-width */
+  left: 47px;
+  /* value = (:before left) + (:before border-left) - (:after border-left) */
+  border-width: 13px 13px 0;
+  border-style: solid;
+  border-color: #fff transparent;
+  /* reduce the damage in FF3.0 */
+  display: block;
+  width: 0;
+}
+
+
+/* Variant : top
+------------------------------------------ */
+
+
+/* creates the larger triangle */
+
+
+/* creates the smaller  triangle */
+
+
+/* Variant : left
+------------------------------------------ */
+
+
+/* creates the larger triangle */
+
+
+/* creates the smaller  triangle */
+
+
+/* Variant : right
+------------------------------------------ */
+
+
+/* creates the larger triangle */
+
+
+/* creates the smaller  triangle */
+
+
+/* ============================================================================================================================
+== SPEECH BUBBLE ICON
+** ============================================================================================================================ */
+
+
+/* creates the rectangle */
+
+
+/* creates the triangle */
+
+
+/* ============================================================================================================================
+== BLOCKQUOTE WITH RIGHT-ANGLED TRIANGLE
+** ============================================================================================================================ */
+
+
+/* display of quote author (alternatively use a class on the element following the blockquote) */
+
+
+/* creates the triangle */
+
+
+/* ============================================================================================================================
+== BLOCKQUOTE WITH OBTUSE TRIANGLE
+** ============================================================================================================================ */
+
+
+/* display of quote author (alternatively use a class on the element following the blockquote) */
+
+
+/* creates the larger triangle */
+
+
+/* creates the smaller triangle */
+
+
+/* ============================================================================================================================
+== TWITTER
+** ============================================================================================================================ */
+
+
+/* this isn't necessary, just saves me having to edit the HTML of the demo */
+
+
+/* creates the triangle */
+
+
+/* display of quote author (alternatively use a class on the element following the blockquote) */
+
+
+/* ============================================================================================================================
+== NUMBER
+** ============================================================================================================================ */
+
+
+/* creates the larger triangle */
+
+
+/* creates the larger triangle */
+
+
+/* ============================================================================================================================
+== PINCHED SPEECH BUBBLE (more CSS3)
+** ============================================================================================================================ */
+
+
+/* creates a rectangle of the colour wanted for the pointy bit */
+
+
+/* creates a rounded rectangle to cover part of the rectangle generated above */
+
+
+/* creates the other rounded rectangle */
+
+
+/* ============================================================================================================================
+== OVAL SPEECH BUBBLE (more CSS3)
+** ============================================================================================================================ */
+
+
+/* creates part of the curve */
+
+
+/* creates part of the curved pointy bit */
+
+
+/* ============================================================================================================================
+== OVAL THOUGHT BUBBLE (more CSS3)
+** ============================================================================================================================ */
+
+
+/* creates the larger circle */
+
+
+/* creates the smaller circle */
+
+
+/* ============================================================================================================================
+== OVAL SPEECH BUBBLE WITH QUOTATION MARKS (more CSS3)
+** ============================================================================================================================ */
+
+
+/* creates opening quotation mark */
+
+
+/* creates closing quotation mark */
+
+
+/* creates smaller curve */
+
+
+/* creates larger curve */
+
+
+/* ============================================================================================================================
+== RECTANGLE-BORDER STYLE WITH CURVE
+** ============================================================================================================================ */
+
+
+/* creates larger curve */
+
+
+/* creates smaller curve */
+
+
+/* creates a small circle to produce a rounded point where the two curves meet */
+
+
+/* creates a white rectangle to cover part of the oval border*/
+
+
+/* ============================================================================================================================
+== OVER SPEECH BUBBLE, EMPTY, WITH BORDER (more CSS3)
+** ============================================================================================================================ */
+
+
+/* creates larger curve */
+
+
+/* creates smaller curve */
+
+
+/* creates a small circle to produce a rounded point where the two curves meet */
+
+
+/* creates a white rectangle to cover part of the oval border*/
+
+
+/* ============================================================================================================================
+== OVER THOUGHT BUBBLE, EMPTY, WITH BORDER (more CSS3)
+** ============================================================================================================================ */
+
+
+/* creates the larger circle */
+
+
+/* creates the smaller circle */
+
+
+/*** uncss> filename: http://localhost/pilakon/css/default.css ***/
+
+body {
+  background-color: #FFFFFF;
+}
+
+.ui.menu .item img.logo {
+  margin-right: 1.5em;
+}
+
+
+/* comic page */
+
+#comic * {
+  font-family: "KomikaHand"
+}
+
+#comic .ui.segment {
+  border: solid 2px #666;
+  padding: 0;
+}
+
+#comic .slide {
+  opacity: 0;
+}
+
+#comic .ui.header {
+  margin-top: 20%;
+  margin-bottom: 20%;
+}
+
+
+/* bubble */
+
+.triangle-border {
+  border: solid 3px #333;
+  margin: 10px !important;
+}
+
+.triangle-border.bottom:before {
+  border-color: #333 transparent
+}
+
+.show {
+  opacity: 1;
+}
+
+.secondary.pointing.menu .toc.item {
+  display: none;
+}
+
+@media only screen and (max-width: 700px) {
+  .secondary.pointing.menu .item,
+  .secondary.pointing.menu .menu {
+    display: none;
+  }
+  .secondary.pointing.menu .toc.item {
+    display: block;
+  }
+}
+
+@font-face {
+  font-family: "KomikaHand";
+  src: url("../css/font/komika_hand.ttf");
+  font-style: normal;
+  font-weight: normal;
+}
+
+
+/*** uncss> filename: http://localhost/pilakon/bower_components/animate.css/animate.min.css ***/
+
+@charset "UTF-8";
+
+/*!
+ * animate.css -http://daneden.me/animate
+ * Version - 3.5.1
+ * Licensed under the MIT license - http://opensource.org/licenses/MIT
+ *
+ * Copyright (c) 2016 Daniel Eden
+ */
+
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both
+}
+
+.animated.bounceIn {
+  -webkit-animation-duration: .75s;
+  animation-duration: .75s
+}
+
+@-webkit-keyframes bounceIn {
+  0%,
+  20%,
+  40%,
+  60%,
+  80%,
+  to {
+    -webkit-animation-timing-function: cubic-bezier(.215, .61, .355, 1);
+    animation-timing-function: cubic-bezier(.215, .61, .355, 1)
+  }
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(.3, .3, .3);
+    transform: scale3d(.3, .3, .3)
+  }
+  20% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1);
+    transform: scale3d(1.1, 1.1, 1.1)
+  }
+  40% {
+    -webkit-transform: scale3d(.9, .9, .9);
+    transform: scale3d(.9, .9, .9)
+  }
+  60% {
+    opacity: 1;
+    -webkit-transform: scale3d(1.03, 1.03, 1.03);
+    transform: scale3d(1.03, 1.03, 1.03)
+  }
+  80% {
+    -webkit-transform: scale3d(.97, .97, .97);
+    transform: scale3d(.97, .97, .97)
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1)
+  }
+}
+
+@keyframes bounceIn {
+  0%,
+  20%,
+  40%,
+  60%,
+  80%,
+  to {
+    -webkit-animation-timing-function: cubic-bezier(.215, .61, .355, 1);
+    animation-timing-function: cubic-bezier(.215, .61, .355, 1)
+  }
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(.3, .3, .3);
+    transform: scale3d(.3, .3, .3)
+  }
+  20% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1);
+    transform: scale3d(1.1, 1.1, 1.1)
+  }
+  40% {
+    -webkit-transform: scale3d(.9, .9, .9);
+    transform: scale3d(.9, .9, .9)
+  }
+  60% {
+    opacity: 1;
+    -webkit-transform: scale3d(1.03, 1.03, 1.03);
+    transform: scale3d(1.03, 1.03, 1.03)
+  }
+  80% {
+    -webkit-transform: scale3d(.97, .97, .97);
+    transform: scale3d(.97, .97, .97)
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1)
+  }
+}
+
+.bounceIn {
+  -webkit-animation-name: bounceIn;
+  animation-name: bounceIn
+}
