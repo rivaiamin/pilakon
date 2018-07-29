@@ -1,0 +1,28 @@
+{
+  "name": "pilakon",
+  "version": "1.0.0",
+  "description": "Real Web Comic",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "gulp cssmin"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rivaiamin/pilakon.git"
+  },
+  "author": "Riva'i Amin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rivaiamin/pilakon/issues"
+  },
+  "homepage": "https://github.com/rivaiamin/pilakon#readme",
+  "resolutions": {
+    "natives": "1.1.3"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-uglify": "^3.0.1"
+  }
+}
